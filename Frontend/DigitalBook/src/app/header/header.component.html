@@ -5,7 +5,7 @@
             <li  *ngIf="!isLoggedIn()">
                 <!-- <a href="/home" class="nav-link" routerLink="home">Home</a>
              -->
-             <button class="nav-link btn btn-outline-primary" mat-button (click)="home()">Home</button>
+             <button class="btn btn-info" mat-button (click)="home()">Home</button>
             </li>
         </ul>
         <!-- <ul class="navbar-nav mr-auto" routerLinkActive="active">
@@ -14,23 +14,24 @@
         </li>
       </ul> -->
       
+      
         <ul class="navbar-nav ml-auto">
             <li class="nav-item" *ngIf="!isLoggedIn()">
                 <!-- <a href="/register" class="nav-link" routerLink="register">Sign Up</a> -->
-                <button class="nav-link btn btn-outline-primary" mat-button (click)="signUp()">Sign Up</button>
+                <button class="btn btn-info" mat-button (click)="signUp()">Sign Up</button>
             </li>
             <li class="nav-item" *ngIf="!isLoggedIn()">
                 <!-- <a href="/login" class="nav-link" routerLink="login">Login</a> -->
-                <button class="nav-link btn btn-outline-primary" mat-button (click)="logIn()">Login</button>
+                <button class="btn btn-info" mat-button (click)="logIn()">Signin</button>
             </li>
             <li class="nav-item" *ngIf="isLoggedIn()">
                 <i class="nav-link">Welcome {{isLoggedInUserName()}} </i>
             </li>
             <li class="nav-item" *ngIf="isLoggedIn()">
-                <button class="nav-link btn btn-outline-primary" mat-button (click)="onLogout()">Logout</button>
+                <button class="btn btn-info" mat-button (click)="onLogout()">Logout</button>
             </li>
             <li class="nav-item" *ngIf="isLoggedIn()">
-                <button class="nav-link btn btn-outline-primary" mat-button (click)="getAllBook()">AllMyBooks</button>
+                <button class="btn btn-info" mat-button (click)="getAllBook()">AllMyBooks</button>
             </li>
 
 
@@ -39,3 +40,4 @@
 
     </nav>
 </div>
+

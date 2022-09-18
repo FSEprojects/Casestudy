@@ -7,9 +7,9 @@ body {
 .login-box {
     margin-top: 75px;
     height: auto;
-    background: #1A2226;
+    background: #93d6f7;
     text-align: center;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(245, 240, 240, 0.16), 0 3px 6px rgba(245, 241, 241, 0.23);
 }
 
 .login-key {
@@ -37,7 +37,7 @@ body {
 }
 
 input[type=text] {
-    background-color: #1A2226;
+    background-color: #e7ecee;
     border: none;
     border-bottom: 2px solid #0DB8DE;
     border-top: 0px;
@@ -49,7 +49,7 @@ input[type=text] {
     color: #ECF0F5;
 }
 input[type=email] {
-    background-color: #1A2226;
+    background-color: #f1f5f7;
     border: none;
     border-bottom: 2px solid #0DB8DE;
     border-top: 0px;
@@ -62,7 +62,7 @@ input[type=email] {
 }
 
 input[type=password] {
-    background-color: #1A2226;
+    background-color: #f5f7f8;
     border: none;
     border-bottom: 2px solid #0DB8DE;
     border-top: 0px;

@@ -2,7 +2,7 @@ import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 
-const URL = "http://localhost:8085/api/v1/digitalbooks";
+const URL = "http://localhost:8086/api/v1/digitalbooks";
 @Injectable({
   providedIn: 'root'
 })

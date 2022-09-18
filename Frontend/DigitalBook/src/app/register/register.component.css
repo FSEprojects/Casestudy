@@ -1,9 +1,9 @@
 .login-box {
     margin-top: 75px;
     height: auto;
-    background: #1A2226;
+    background: #9ad0f5;
     text-align: center;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(228, 208, 208, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 body {
@@ -30,7 +30,7 @@ body {
     box-shadow: none;
     border-bottom: 2px solid #0DB8DE;
     outline: 0;
-    background-color: #1A2226;
+    background-color: #85b7cf;
     color: #ECF0F5;
 }
 label {
@@ -67,7 +67,7 @@ label {
     color: #ECF0F5;
 }
 input[type=text] {
-    background-color: #1A2226;
+    background-color: #fdfeff;
     border: none;
     border-bottom: 2px solid #0DB8DE;
     border-top: 0px;
@@ -79,7 +79,7 @@ input[type=text] {
     color: #ECF0F5;
 }
 input[type=password] {
-    background-color: #1A2226;
+    background-color: #f1f5f7;
     border: none;
     border-bottom: 2px solid #0DB8DE;
     border-top: 0px;
@@ -91,7 +91,7 @@ input[type=password] {
     color: #ECF0F5;
 }
 input[type=email] {
-    background-color: #1A2226;
+    background-color: #eaeff1;
     border: none;
     border-bottom: 2px solid #0DB8DE;
     border-top: 0px;
