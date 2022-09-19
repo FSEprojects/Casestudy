@@ -29,6 +29,8 @@ export class AllmybookComponent implements OnInit {
     }
   }
 
+  
+
   getAllMyBooks() {
     console.log(localStorage.getItem('currentUserId'));
     const observable = this.bookService.getBook(localStorage.getItem('currentUserId'));
@@ -47,6 +49,7 @@ export class AllmybookComponent implements OnInit {
       }
     );
   }
+  
 
   searchBookForReader(searchBookReaderPaymentId: String) {
     const observable = this.bookService.searchBookForReader(searchBookReaderPaymentId);
@@ -66,6 +69,8 @@ export class AllmybookComponent implements OnInit {
       }
     );
   }
+
+  
 
 
 }

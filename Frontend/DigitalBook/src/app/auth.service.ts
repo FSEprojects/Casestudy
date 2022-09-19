@@ -9,14 +9,14 @@ export class AuthService {
 
   constructor(public http: HttpClient,public route:Router) { }
   login(username: string, password: string) {
-    return this.http.post(AUTH_API,{
+    return this.http.post(AUTH_API+ 'login',{
       username,
       password
     });
   }
 
   register(username: string, email: string, password: string,userrole:string) {
-    return this.http.post(AUTH_API,{
+    return this.http.post(AUTH_API+ 'signup',{
       username,
       email,
       password,userrole

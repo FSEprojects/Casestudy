@@ -1,5 +1,5 @@
 div  {
-    background: #222D32;
+    background: #edf7fc;
 }
 .form-group {
     margin-bottom: 40px;
@@ -13,9 +13,9 @@ div  {
 }
 
 input[type=text] {
-    background-color: #1A2226;
+    background-color: #73ccf8;
     border: none;
-    border-bottom: 2px solid #0DB8DE;
+    border-bottom: 2px solid #eef1b9;
     border-top: 0px;
     border-radius: 0px;
     font-weight: bold;
@@ -25,9 +25,9 @@ input[type=text] {
     color: #ECF0F5;
 }
 input[type=number] {
-    background-color: #1A2226;
+    background-color: #eff4f7;
     border: none;
-    border-bottom: 2px solid #0DB8DE;
+    border-bottom: 2px solid #eef1be;
     border-top: 0px;
     border-radius: 0px;
     font-weight: bold;
@@ -38,7 +38,7 @@ input[type=number] {
 }
 
 body {
-    background: #222D32;
+    background: #8dd6f8;
     font-family: 'Roboto', sans-serif;
 }
 .login-btm {
@@ -66,7 +66,7 @@ body {
 .login-box {
     margin-top: 75px;
     height: auto;
-    background: #1A2226;
+    background: #90d4f7;
     text-align: center;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }

@@ -1,4 +1,5 @@
 import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
+import { ReadVarExpr } from '@angular/compiler';
 import { Injectable } from '@angular/core';
 
 
@@ -26,6 +27,8 @@ export class BookserviceService {
 
   }
 
+  
+
   getBook(userid: any) {
     let appendedURL = URL + "/allbooks/" + userid;
     return this.http.get(appendedURL);
@@ -43,6 +46,15 @@ export class BookserviceService {
     let appendedURL = URL + "/payment/book/" + reader.bookId + "/username/" + reader.userName + "/mailId/" + reader.mailId;
     return this.http.post(appendedURL,reader);
 
+  }
+  edit(book: any){
+    //"/author/{authorId}/books/{bookId}"
+    let appendedURL = URL +"/author/" + book.authorId + "/books/" + book.bookId;
+    let queryParams = new HttpParams();
+    queryParams = queryParams.append("category", book.category);
+    queryParams = queryParams.append("author", book.author);
+    queryParams = queryParams.append("price", book.price)
+    return this.http.get(appendedURL, { params: queryParams });
   }
 
   searchBookForReader(searchBookReaderPaymentId:String){
